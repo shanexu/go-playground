@@ -28,5 +28,5 @@ func main() {
 		panic(err)
 	}
 
-	spew.Dump(f.Decls[1])
+	spew.Dump(f)
 }
